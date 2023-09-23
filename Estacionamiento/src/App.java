@@ -8,7 +8,7 @@ public class App {
         double totalPagar;
         int horasAdicionales = 0;
         
-       
+       for(int i = 0; i<3; i++){
         System.out.println("*****Bienvenido al sistema de cobro del parqueo***");
         
         System.out.println("Ingrese la cantidad de horas que estuvo estacionado su coche: ");
@@ -26,6 +26,7 @@ public class App {
              System.out.println("Usted debe pagar: " + totalPagar + "dolares por las horas adicionales que estuvo estacionado");
          
         }
+       }
         entrada.close();
     }
 }
