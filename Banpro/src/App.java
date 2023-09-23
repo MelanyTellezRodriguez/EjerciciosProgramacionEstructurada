@@ -15,6 +15,8 @@ public class App {
         double cargoPorServicio;
         double saldoFinal = 0;
         double saldoNuevo;
+
+        for(int i = 0; i<3; i++){
         
         System.out.println("Por favor ingrese el numero de cuenta: ");
         numeroDeCuenta = entrada.nextInt();
@@ -62,7 +64,7 @@ public class App {
                             interes = saldoActual * interesChqueMayor5000;
                             saldoActual += interes;
                             
-                            
+                        }       
                 }
             }
         
